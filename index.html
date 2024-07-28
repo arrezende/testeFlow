@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bem-vindo ao Meu Site</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h2>Sobre Nós</h2>
+        <p>Esta é uma seção sobre nós.</p>
+      </section>
+      <section>
+        <h2>Serviços</h2>
+        <p>Esta é uma seção sobre nossos serviços.</p>
+      </section>
+      <section>
+        <h2>Galeria</h2>
+        <div class="carousel">
+          <div class="carousel-inner">
+            <img src="img/img1.jpg" class="active" alt="Imagem 1" />
+            <img src="img/img2.jpg" alt="Imagem 2" />
+            <img src="img/img3.jpg" alt="Imagem 3" />
+          </div>
+          <button class="carousel-control prev" onclick="prevSlide()">
+            &#10094;
+          </button>
+          <button class="carousel-control next" onclick="nextSlide()">
+            &#10095;
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
