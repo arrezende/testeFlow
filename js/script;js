@@ -1,0 +1,5 @@
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("Documento carregado e pronto!");
+
+    // Adicionar mais funcionalidades JavaScript aqui
+});
