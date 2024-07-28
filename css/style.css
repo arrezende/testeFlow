@@ -90,3 +90,27 @@ footer {
 .next {
   right: 10px;
 }
+.equipe {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.membro {
+  text-align: center;
+}
+
+.membro img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.membro h3 {
+  margin: 10px 0 5px 0;
+}
+
+.membro p {
+  margin: 0;
+  color: #777;
+}
